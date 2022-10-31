@@ -1,5 +1,6 @@
-@use "variables";
+@use "custom";
 
-.red {
-   color: red;
-}
+@import "../../fonts/scss/fontawesome.scss";
+@import "../../fonts/scss/solid.scss";
+@import "../../fonts/scss/brands.scss";
+@import "../../fonts/scss/v4-shims.scss";
