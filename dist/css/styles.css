@@ -7221,6 +7221,10 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+.w-90 {
+  width: 90% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -10779,24 +10783,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.box {
-  height: 100%;
-}
-
-.fa-star-of-life {
-  top: -5px;
-  left: -2px;
-}
-
-.login-box {
-  height: 100vh;
-  --bs-gutter-x: 0;
-}
-
-.login-box-h {
-  min-height: fit-content;
-}
-
 /*!
  * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -23871,6 +23857,24 @@ readers do not read off random characters that represent icons */
 .fa.fa-meetup {
   font-family: "Font Awesome 6 Brands";
   font-weight: 400;
+}
+
+.box {
+  height: 100%;
+}
+
+.fa-star-of-life {
+  top: -5px;
+  left: -2px;
+}
+
+.login-box {
+  --bs-gutter-x: 0;
+}
+
+.login-box-content {
+  height: fit-content;
+  min-width: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */

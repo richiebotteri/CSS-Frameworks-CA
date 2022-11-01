@@ -16,36 +16,39 @@
       <meta name="description" content="social-media, chat, talk, connect, friends, collaboration" />
       <title>Login | Meetzy</title>
    </head>
-   <body class="">
-      <div class="login-box d-lg-flex justify-content-between">
-         <div class="login-box-h px-5 py-4 col d-flex flex-column gap-4 justify-content-center">
+   <body class="d-flex flex-column min-vh-100">
+      <main class="login-box flex-grow-1 d-lg-flex p-2 mt-sm-5">
+         <div class="login-box-content col d-flex w-100 px-4 px-lg-0 py-4 flex-column gap-4">
             <h1 class="display-3 fw-semibold">Meetzy</h1>
-            <p class="fs-3">Meet new people trough activites you both like. Find millions of meetingspots around the world.</p>
+            <p class="fs-3 w-90">Meet new people trough activites you both like. Find millions of meetingspots around the world.</p>
          </div>
-         <div class="login-box-h col d-lg-flex justify-content-center px-4 py-5">
-            <div class="border p-4 border-4 border-dark bg-primary">
+         <div class="login-box-content col d-flex px-3 px-lg-0 py-3 justify-content-center justify-content-md-start">
+            <div class="border px-4 py-5 p-sm-5 border-2 border-dark bg-primary w-100">
                <p class="fs-5">Start meeting new friends now, register below!</p>
-               <div class="row">
-                  <form action="">
-                     <div class="mb-3">
-                        <label for="user-name" class="form-label ps-1 mb-2">
-                           Email
-                           <i class="fa-solid fa-star-of-life position-relative fs-8"></i>
-                        </label>
-                        <input type="email" class="form-control border-dark" id="user-name" placeholder="example@email.com" />
-                     </div>
-                     <div class="mb-3">
-                        <label for="password" class="form-label ps-1 mb-2">
-                           Password
-                           <i class="fa-solid fa-star-of-life position-relative fs-8"></i>
-                        </label>
-                        <input type="password" class="form-control border-dark" id="password" placeholder="write your password" />
-                     </div>
-                  </form>
-               </div>
+               <form action="" class="d-flex flex-column gap-4">
+                  <div>
+                     <label for="user-name" class="form-label ps-1 mb-2">
+                        Email
+                        <i class="fa-solid fa-star-of-life position-relative fs-8"></i>
+                     </label>
+                     <input type="email" class="form-control border-dark py-2" id="user-name" placeholder="example@email.com" />
+                  </div>
+                  <div>
+                     <label for="password" class="form-label ps-1 mb-2">
+                        Password
+                        <i class="fa-solid fa-star-of-life position-relative fs-8"></i>
+                     </label>
+                     <input type="password" class="form-control border-dark py-2" id="password" placeholder="write your password" />
+                  </div>
+                  <button type="button" class="btn btn-secondary w-100 py-2">Login</button>
+                  <button type="button" class="btn btn-secondary w-100 py-2">Login</button>
+               </form>
             </div>
          </div>
-      </div>
+      </main>
+      <footer class="mt-5 bg-dark">
+         <p class="text-center text-white mb-0 p-3">Copywrite &copy;</p>
+      </footer>
    </body>
 </html>
 

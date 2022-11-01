@@ -31,26 +31,30 @@ $font-sizes: (
    8: $p2-font-size,
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-
 // -----------------------------------------------------------
-// Custom Structure Classes
+// Custom Structure from Bootstrap Classes
 
-.box {
-   height: 100%;
-}
+// Utilities
 
-.fa-star-of-life {
-   top: -5px;
-   left: -2px;
-}
+$utilities: ();
+$utilities: map-merge(
+   (
+      // Sizing utilities
+      "width":
+         (
+            property: width,
+            class: w,
+            values: (
+               25: 25%,
+               50: 50%,
+               75: 75%,
+               90: 90%,
+               100: 100%,
+               auto: auto,
+            ),
+         )
+   ),
+   $utilities
+);
 
-.login-box {
-   @extend .container;
-   height: 100vh;
-   --bs-gutter-x: 0;
-}
-
-.login-box-h {
-   min-height: fit-content;
-}
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -4,3 +4,25 @@
 @import "../../fonts/scss/solid.scss";
 @import "../../fonts/scss/brands.scss";
 @import "../../fonts/scss/v4-shims.scss";
+
+// -----------------------------------------------------------
+// Custom Structure Classes
+
+.box {
+   height: 100%;
+}
+
+.fa-star-of-life {
+   top: -5px;
+   left: -2px;
+}
+
+.login-box {
+   @extend .container;
+   --bs-gutter-x: 0;
+}
+
+.login-box-content {
+   height: fit-content;
+   min-width: 300px;
+}
