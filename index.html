@@ -1,0 +1,65 @@
+<!-- 
+  The login page should have a form to login to the application. 
+  Ensure to include HTML form validation and use /profile as the action attribute.-->
+
+<!-- You will only be working on the visuals for this project at this stage;
+    forms do not need to submit data, for example. -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="/dist/css/styles.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content="social-media, chat, talk, connect, friends, collaboration" />
+      <title>Login | Meetzy</title>
+   </head>
+   <body class="d-flex flex-column min-vh-100">
+      <main class="login-box flex-grow-1 d-lg-flex p-2 mt-sm-5">
+         <div class="login-box-content col d-flex w-100 px-4 px-lg-0 py-4 flex-column gap-4">
+            <h1 class="display-3 fw-semibold">Meetzy</h1>
+            <p class="fs-3 w-90">Meet new people trough activites you both like. Find millions of meetingspots around the world.</p>
+         </div>
+         <div class="login-box-content col d-flex px-3 px-lg-0 py-3 justify-content-center justify-content-md-start">
+            <div class="border px-4 py-5 p-sm-5 border-2 border-dark bg-primary w-100">
+               <p class="fs-5">Start meeting new friends now, register below!</p>
+               <form action="profile-page.html" class="d-flex flex-column gap-4">
+                  <div>
+                     <label for="user-name" class="form-label ps-1 mb-2">
+                        Email
+                        <i class="fa-solid fa-star-of-life position-relative fs-8"></i>
+                     </label>
+                     <input type="email" class="form-control border-dark py-2" id="user-name" placeholder="example@email.com" />
+                  </div>
+                  <div>
+                     <label for="password" class="form-label ps-1 mb-2">
+                        Password
+                        <i class="fa-solid fa-star-of-life position-relative fs-8"></i>
+                     </label>
+                     <input type="password" class="form-control border-dark py-2" id="password" placeholder="write your password" />
+                  </div>
+                  <button type="submit" class="btn btn-secondary w-100 py-2">Login</button>
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer class="mt-5 bg-dark">
+         <p class="text-center text-white mb-0 p-3">Copywrite &copy;</p>
+      </footer>
+   </body>
+</html>
+
+<!-- <div class="container d-lg-flex">
+   <div class="col">
+      <div class="row bg-white p-3">
+         <h1>Meetzy</h1>
+         <p>Meet new people trough activites you both like. Find millions of meetingspots around the world.</p>
+      </div>
+   </div>
+   <div class="col bg-white border border-3 border-dark p-3">
+      <p>Start meeting new friends now, register below!</p>
+      <div class="row"></div>
+   </div>
+</div> -->
