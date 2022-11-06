@@ -2,17 +2,24 @@
 // Custom Skin Classes
 
 // Theme colors
-$green: #809eff;
-$pink: #d63384;
-$red: #dc3545;
-$white: #fff;
-$cyan: #0dcaf0;
-$gray-900: #212529;
-$gray-300: #dee2e6;
 
-$primary: $cyan;
-$secondary: $gray-300;
+$white: #eff3f4;
+$cyan: #0dcaf0;
+$cyan-light: #8ce0eb;
+$red: #830713;
+$red-700: shade-color($red, 40%);
+
+$gray-900: #212529;
+$black: #000;
+
+$primary: $cyan-light;
+$secondary: $black;
+$danger: $red;
+$body-color: $gray-900;
 $input-border-color: $gray-900;
+$component-active-bg: $gray-900;
+
+$btn-hover-bg-tint-amount: 20%;
 
 // Font classes
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
@@ -41,6 +48,8 @@ $font-sizes: (
 $border-radius-none: none;
 $border-radius-sm: 0.25rem;
 $input-border-radius: $border-radius-sm;
+
+// Inputs validation
 
 // -----------------------------------------------------------
 // Custom Structure from Bootstrap Classes
