@@ -67,10 +67,11 @@
          <div class="col">
             <div class="row m-5 d-flex flex-column gap-5 align-content-center">
                <div class="col">
-                  <form action="profile-page.html" class="row d-flex flex-column bg-primary p-5 mb-5">
+                  <form action="profile-page.html" class="row d-flex flex-column bg-primary p-5 mb-5 needs-validation" novalidate>
                      <label for="text-area" class="form-label px-0"><h3>Create a post</h3></label>
-                     <textarea class="form-control" id="text-area" rows="5" placeholder="Whats on your mind?"></textarea>
-                     <button type="submit" class="btn btn-secondary border border-dark rounded-0 w-25 align-self-end">Post</button>
+                     <textarea class="form-control" id="text-area" rows="5" placeholder="Whats on your mind?" required></textarea required>
+                     <div class="invalid-feedback bg-danger p-3 rounded-2 text-white fw-semibold inline">Please type in a message</div>
+                     <button type="submit" class="btn btn-secondary border border-dark w-25 align-self-end mt-1">Post</button>
                   </form>
                   <div class="row d-flex gap-5">
                      <div class="p-5 d-flex flex-column bg-secondary">
@@ -124,4 +125,5 @@
          <p class="text-center text-white mb-0 p-3">Copywrite &copy;</p>
       </footer>
    </body>
+   <script src="js/login-form.js"></script>
 </html>
